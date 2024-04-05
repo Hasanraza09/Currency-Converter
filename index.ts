@@ -44,4 +44,4 @@ let amount = user_answer.amount;
 let baseAmount = amount / fromAmount;
 let convertedAmount = baseAmount * toAmount;
 
-console.log(chalk.blue(`Converted Amount: ${convertedAmount.toFixed(2)}`));
+console.log(chalk.blue(`Converted Amount: ${chalk.bgYellow.black.bold(convertedAmount.toFixed(2))}`));
